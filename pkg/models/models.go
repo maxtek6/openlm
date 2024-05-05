@@ -3,16 +3,17 @@ package models
 import "time"
 
 type Product struct {
-	Id       string   `json:"id"`
-	Features []string `json:"features"`
+	Id           string   `json:"id"`
+	Name         string   `json:"name"`
+	Entitlements []string `json:"features"`
 }
 
 type License struct {
 	Id              string    `json:"id"`
 	Product         string    `json:"product"`
-	Features        []string  `json:"features"`
 	Expiration      time.Time `json:"expiration"`
 	ActivationLimit int       `json:"activation_limit"`
+	Entitlements    []string  `json:"features"`
 }
 
 type Activation struct {

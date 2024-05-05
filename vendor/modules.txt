@@ -1,0 +1,6 @@
+# github.com/gorilla/mux v1.8.1
+## explicit; go 1.20
+github.com/gorilla/mux
+# github.com/maxtek6/endpoints-go v0.0.0-20240429190112-19f4569ea016
+## explicit; go 1.22.2
+github.com/maxtek6/endpoints-go
